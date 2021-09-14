@@ -1,0 +1,21 @@
+{
+  "name": "psd2-demo",
+  "version": "1.0.0",
+  "description": "Practice project",
+  "main": "index.js",
+  "scripts": {
+    "cy:open": "cypress open",
+    "cy:run": "cypress run --headless",
+    "cy:run:record": "cypress run --record",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Povilas L.",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^8.3.1",
+    "cypress-cucumber-preprocessor": "^4.2.0"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "testFiles": "**/*.feature",
+  "baseUrl": "https://test.api.ob.baltics.sebgroup.com",
+  "clientCertificates": [
+    {
+      "url": "https://test.api.ob.baltics.sebgroup.com",
+      "ca": [],
+      "certs": [
+        {
+          "cert": "./cypress/fixtures/client.crt",
+          "key": "./cypress/fixtures/client.key"
+        }
+      ]
+    }
+  ]
+}
